@@ -1,0 +1,27 @@
+{
+  "name": "learnnodejs",
+  "version": "1.0.0",
+  "description": "learn nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DuyThang7821/learnNodeJS.git"
+  },
+  "keywords": [
+    "learnNodeJS"
+  ],
+  "author": "DuyThang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DuyThang7821/learnNodeJS/issues"
+  },
+  "homepage": "https://github.com/DuyThang7821/learnNodeJS#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
